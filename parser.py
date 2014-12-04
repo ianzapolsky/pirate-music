@@ -6,7 +6,6 @@ import json
 import random
 import sys
 
-
 def get_peers(filename):
 
   peers = []
@@ -72,5 +71,3 @@ if __name__ == '__main__':
   filename = sys.argv[1];
   peers = get_peers(filename) 
   create_music(peers)
-  #f = open('results.txt', 'w')
-  #f.write(json.dumps(peers))
