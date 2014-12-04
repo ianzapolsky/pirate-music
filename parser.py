@@ -46,7 +46,7 @@ def get_peer_reciepts(filename, ip):
 def get_tones(peers):
   tones = {}
   for peer in peers:
-    tones[peer['ip']] = random.randint(200, 800)
+    tones[peer['ip']] = random.randint(200, 1600)
   return tones
 
 def create_music(peers):
